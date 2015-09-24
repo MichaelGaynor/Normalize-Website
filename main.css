@@ -1,0 +1,17 @@
+body{
+  font-family: sans-serif;
+  line-height: 20px;
+  background-image: url(images/background.jpg);
+}
+
+.my
+
+.complaint-area{
+  border: 1px solid green;
+}
+
+p:first-letter{
+  font-family: 'Tangerine', cursive;
+  font-size: 50px;
+  font-weight: bolder;
+}
