@@ -65,7 +65,7 @@ div.treeTextOne{
   font-size: 60px;
   position: absolute;
   top: 148px;
-  right: 497px;
+  left: 497px;
 }
 div.treeTextTwo{
   z-index: 2;
@@ -73,7 +73,7 @@ div.treeTextTwo{
   font-size: 60px;
   position: absolute;
   top: 216px;
-  right: 432px;
+  left: 432px;
 }
 
 div.3columns{
@@ -168,6 +168,14 @@ li.month3{
   color: #868686;
   border-top: 0;
   background-color: #101010;
+}
+li.choose{
+  color: black;
+  background-color: transparent;
+}
+button{
+  border-radius: 25px;
+  background-color: transparent;
 }
 
 div.2columns{
