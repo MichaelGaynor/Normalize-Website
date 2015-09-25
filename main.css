@@ -19,9 +19,8 @@ ul{
 
 ol{
   list-style: none;
-  /*border: 2px solid black;*/
   width: 400px;
-  display: inline-block;
+  /*display: inline-block;*/
   padding: 10px;
 }
 
@@ -94,6 +93,21 @@ ul.topTwo{
 ul.topThree{
   position: absolute;
   top: 469px;
+  right: 18px;
+}
+ul.threeColumnOne{
+  position: absolute;
+  top: 662px;
+  right: 652px;
+}
+ul.threeColumnTwo{
+  position: absolute;
+  top: 662px;
+  right: 335px;
+}
+ul.threeColumnThree{
+  position: absolute;
+  top: 662px;
   right: 18px;
 }
 
