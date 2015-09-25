@@ -194,6 +194,9 @@ ol.twoColumnTwo{
   top: 1049px;
   left: 658px;
 }
+li.bodytext .bodyTop{
+  font-size: 40px;
+}
 
 li.bodyText{
   color: #5D6A6F;
@@ -210,6 +213,7 @@ div.Bottom{
   position: relative;
   top: 1031px;
   left: 5px;
+  width: 1340;
 }
 
 div.Bottom a{
