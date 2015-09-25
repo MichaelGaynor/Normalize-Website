@@ -14,12 +14,12 @@ ul{
   text-align: center;
   padding: 10px;
   color: #59666C;
-  margin: 10px;
+  margin: 8px;
 }
 
 ol{
   list-style: none;
-  border: 2px solid black;
+  /*border: 2px solid black;*/
   width: 400px;
   display: inline-block;
   padding: 10px;
@@ -29,6 +29,10 @@ li{
   padding: 15px;
   border: 1px solid #DFDFDF;
   background-color: #F7F7F7;
+}
+
+h3{
+  color: #1E1E1E;
 }
 
 
@@ -55,6 +59,82 @@ margin: 10px;
 img.homeTreePic{
   max-width: 100%;
   position: absolute;
+}
+div.treeText{
+  z-index: 2;
+  color: #FEFEFD;
+  font-size: 40px;
+  position: absolute;
+  top: 127px;
+  right: 508px;
+}
+.treeTextTwo{
+  position: absolute;
+  top: 140px;
+}
+
+li.useType1{
+  color: white;
+  border-bottom: 0;
+  background-color: #4F934E;
+}
+li.money1{
+  color: white;
+  border-top: 0;
+  border-bottom: 0;
+  font-size: 100px;
+  font-weight: lighter;
+  padding: 0;
+  background-color: #4F934E;
+}
+li.month1{
+  color: #A5C8A5;
+  border-top: 0;
+  font-weight: bold;
+  background-color: #4F934E;
+}
+li.useType2{
+  color: white;
+  border-bottom: 0;
+  background-color: #2A4787;
+}
+li.money2{
+  color: white;
+  border-top: 0;
+  border-bottom: 0;
+  font-size: 100px;
+  font-weight: lighter;
+  padding: 0;
+  background-color: #2A4787;
+}
+li.month2{
+  color: #94A2C2;
+  border-top: 0;
+  background-color: #2A4787;
+}
+li.useType3{
+  color: white;
+  border-bottom: 0;
+  background-color: #101010;
+}
+li.money3{
+  color: white;
+  border-top: 0;
+  border-bottom: 0;
+  font-size: 100px;
+  font-weight: lighter;
+  padding: 0;
+  background-color: #101010;
+}
+li.month3{
+  color: #868686;
+  border-top: 0;
+  background-color: #101010;
+}
+li.bodyText{
+  color: #5D6A6F;
+  background-color: transparent;
+  border: 0;
 }
 
 div.Bottom{
