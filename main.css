@@ -66,6 +66,7 @@ div.treeTextOne{
   position: absolute;
   top: 148px;
   left: 497px;
+  text-shadow: 0 2px 2px black;
 }
 div.treeTextTwo{
   z-index: 2;
@@ -74,6 +75,7 @@ div.treeTextTwo{
   position: absolute;
   top: 216px;
   left: 432px;
+  text-shadow: 0 2px 2px black;
 }
 
 div.3columns{
@@ -176,6 +178,7 @@ li.choose{
 button{
   border-radius: 25px;
   background-color: transparent;
+  padding: 3px;
 }
 
 div.2columns{
