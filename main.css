@@ -2,7 +2,7 @@ body{
   font-family: 'Josefin Sans', sans-serif;
   padding: 5px;
   min-width:1340px;
-  min-height: 1635px;
+  min-height: 1000px;
   margin: 10px;
   font-weight: bold;
 }
@@ -21,7 +21,7 @@ ol{
   list-style: none;
   width: 400px;
   /*display: inline-block;*/
-  padding: 10px;
+  padding: 4px;
 }
 
 li{
@@ -50,7 +50,7 @@ div.Header a:hover{
 .homeTree{
 position: relative;
 min-height: 400px;
-min-width: 98%;
+min-width: 1320px;
 overflow: hidden;
 margin: 10px;
 }
@@ -83,32 +83,32 @@ div.3columns{
 ul.topOne{
   position: absolute;
   top: 469px;
-  right: 652px;
+  left: 162px;
 }
 ul.topTwo{
   position: absolute;
   top: 469px;
-  right: 335px;
+  left: 479px;
 }
 ul.topThree{
   position: absolute;
   top: 469px;
-  right: 18px;
+  left: 796px;
 }
 ul.threeColumnOne{
   position: absolute;
   top: 662px;
-  right: 652px;
+  left: 162px;
 }
 ul.threeColumnTwo{
   position: absolute;
   top: 662px;
-  right: 335px;
+  left: 479px;
 }
 ul.threeColumnThree{
   position: absolute;
   top: 662px;
-  right: 18px;
+  left: 796px;
 }
 
 li.useType1{
@@ -169,6 +169,21 @@ li.month3{
   border-top: 0;
   background-color: #101010;
 }
+
+div.2columns{
+  position: relative;
+}
+ol.twoColumnOne{
+  position: absolute;
+  top: 973px;
+  left: 248px;
+}
+ol.twoColumnTwo{
+  position: absolute;
+  top: 973px;
+  left: 658px;
+}
+
 li.bodyText{
   color: #5D6A6F;
   background-color: transparent;
@@ -181,7 +196,11 @@ div.Bottom{
   background-color: #101010;
   color: #878787;
   font-weight: bold;
+  position: relative;
+  top: 979px;
+  left: 5px;
 }
+
 div.Bottom a{
   color: #DADADA;
 }
