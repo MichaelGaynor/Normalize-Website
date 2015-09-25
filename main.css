@@ -60,17 +60,41 @@ img.homeTreePic{
   max-width: 100%;
   position: absolute;
 }
-div.treeText{
+div.treeTextOne{
   z-index: 2;
   color: #FEFEFD;
-  font-size: 40px;
+  font-size: 60px;
   position: absolute;
-  top: 127px;
-  right: 508px;
+  top: 148px;
+  right: 497px;
 }
-.treeTextTwo{
+div.treeTextTwo{
+  z-index: 2;
+  color: #FEFEFD;
+  font-size: 60px;
   position: absolute;
-  top: 140px;
+  top: 216px;
+  right: 432px;
+}
+
+div.3columns{
+  position: relative;
+}
+
+ul.topOne{
+  position: absolute;
+  top: 469px;
+  right: 652px;
+}
+ul.topTwo{
+  position: absolute;
+  top: 469px;
+  right: 335px;
+}
+ul.topThree{
+  position: absolute;
+  top: 469px;
+  right: 18px;
 }
 
 li.useType1{
