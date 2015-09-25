@@ -7,11 +7,12 @@ body{
 
 ul{
   list-style: none;
-  border: 2px solid black;
+  /*border: 2px solid black;*/
   width: 300px;
   display: inline-block;
   text-align: center;
   padding: 10px;
+  background-color: #F7F7F7;
 }
 
 ol{
@@ -21,6 +22,7 @@ ol{
   display: inline-block;
   padding: 10px;
 }
+
 
 div.Header a{
 text-decoration: none;
@@ -37,11 +39,22 @@ div.Header a:hover{
 .homeTree{
 position: relative;
 min-height: 400px;
-min-width: 1300px;
+min-width: 98%;
 overflow: hidden;
 }
 
 img.homeTreePic{
   max-width: 100%;
   position: absolute;
+}
+
+div.Bottom{
+  text-align: center;
+  border:2px solid black;
+  background-color: #101010;
+  color: #878787;
+  font-weight: bold;
+}
+div.Bottom a{
+  color: #DADADA;
 }
