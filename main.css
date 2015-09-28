@@ -62,7 +62,7 @@ img.homeTreePic{
 div.treeTextOne{
   z-index: 2;
   color: #FEFEFD;
-  font-size: 60px;
+  font-size: 50px;
   position: absolute;
   top: 148px;
   left: 497px;
@@ -71,7 +71,7 @@ div.treeTextOne{
 div.treeTextTwo{
   z-index: 2;
   color: #FEFEFD;
-  font-size: 60px;
+  font-size: 50px;
   position: absolute;
   top: 216px;
   left: 432px;
@@ -176,9 +176,9 @@ li.choose{
   background-color: transparent;
 }
 button{
-  border-radius: 25px;
+  border-radius: 40px;
   background-color: transparent;
-  padding: 3px;
+  padding: 10px;
 }
 
 div.2columns{
@@ -194,15 +194,15 @@ ol.twoColumnTwo{
   top: 1049px;
   left: 658px;
 }
-li.bodytext .bodyTop{
-  font-size: 40px;
-}
+
 
 li.bodyText{
   color: #5D6A6F;
-  background-color: transparent;
+  background-color: white;
   border: 0;
+  /*margin: -20px 0 0 0;*/
 }
+
 
 div.Bottom{
   text-align: center;
